@@ -1,5 +1,5 @@
 .head {
-  display: flex;
+
   align-items: center;
   width: 100%;
   background-color: rgb(26, 64, 167);
@@ -18,9 +18,11 @@
 }
 .body {
   display: flex;
-  padding: 100%;
+ /* padding: 100%;*/
   background-color: rgb(72, 136, 173);
   border: 1px solid blue;
+  width: 100%;
+  height: 600px;
 }
 .footer{
   display: flex;
