@@ -16,6 +16,7 @@
 }
 .body {
   display: flex;
+  justify-content: center;
   /* padding: 100%;*/
   background-color: rgb(72, 136, 173);
   border: 1px solid blue;
@@ -23,9 +24,8 @@
   height: 600px;
 }
 .form{
-  align-items: center;
-  border: 1px solid rgb(215, 215, 218);
-  width: 400px;
+  width: 24rem;
+ /* */
 }
 .footer {
   align-items: center;
@@ -58,4 +58,8 @@
 }
 .negritas {
   font-weight: bold;
+}
+.centrar-boton {
+  display: flex;
+  justify-content: center;
 }
