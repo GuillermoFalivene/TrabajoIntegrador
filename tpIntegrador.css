@@ -64,3 +64,6 @@
   justify-content: center;
   font-weight: bold;
 }
+.descripcion{
+  border: 1px solid blue;
+}
