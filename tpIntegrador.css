@@ -67,3 +67,39 @@
 .descripcion{
   border: 1px solid blue;
 }
+/*carrusel*/
+.caja{
+  box-sizing: border-box;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    text-align: center;
+}
+.contenido{
+  height: 400px;
+  width: 750px;
+  overflow: hidden;
+  position: relative;
+}
+.contenido .images{
+  height: 100%;
+  width: 100%;
+}
+.images img{
+  height: 100%;
+  width: 100%;
+}
+.contenido .boton{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 45px;
+  /*height: 45px;*/
+  border: 2px solid white;
+  background: rgba(255, 255, 255,0.1);
+  cursor: pointer;
+}
+.contenido .right{
+  right: 0;
+}
