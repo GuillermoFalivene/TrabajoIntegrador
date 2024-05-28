@@ -8,6 +8,7 @@
     <link rel="icon" type="image/x-icon" href="imagenes/FyF.ico" />
   </head>
   <body>
+    
     <div class="head">
       <h2>Cabañas Vulpi</h2>
       <img src="imagenes/Cabana.png" alt="logo" />
@@ -20,21 +21,25 @@
     <div class="body">
       <div> 
         <p class="centrar-boton">Formulario de Contacto</p>
-        <form class="form" onsubmit="return validar()">     
-        <label class="negritas">Nombre</label> <br>
-        <input id="txtNombre" size="50"/><br>
-        <label class="negritas">Telefono</label><br>
-        <input id="telefono" size="50"/><br>
-        <label class="negritas">Correo</label><br>
-        <input id="correo" size="50"/><br><br>
-        <label class="negritas">Dejanos tu consulta.</label><br>
-        <!--<textarea name="message" rows="10" cols="45"></textarea><br>-->
-        <textarea name="consulta" style="width:380px; height:300px;" ></textarea>
-        <div class="centrar-boton">
-        <button type="submit" >Enviar Formulario</button>
-        <button type="reset">Borrar Datos</button>
-      </div>
-      </form>
+        <form class="frm" onsubmit="return validar()">
+          <label class="negritas">Nombre</label><br>
+          <input id="txtNombre" size="50" /><br>
+          <label class="negritas">Telefono</label><br>
+          <input id="txtTelefono" size="50" /><br>
+          <label class="negritas">Correo</label><br>
+          <input id="txtCorreo" size="50" /><br>
+          <label class="negritas">Dejanos tu consulta.</label><br>
+          <textarea id = "txtConsulta" name="txtConsulta" style="width:380px; height:100px;" ></textarea> 
+          <div class="centrar-boton">
+            <button type="submit">Enviar Formulario</button>
+            <button type="reset">Borrar Datos</button>
+          </div>
+
+        </form>
+        <ul id="ltaErrores"></ul>
+        <!--Lista de herrores-->
+        <ol id="ltaMensajes"></ol>
+        <!--Lista de mensajes-->
       </div>
     </div>
     <div class="footer">
@@ -46,5 +51,8 @@
         Año lectivo 2024 <br>
       </div>
     </div>
+    <ul id="ltaErrores"></ul> <!--Lista de herrores-->
+    <ol id="ltaMensajes"></ol><!--Lista de mensajes-->
+    <script src="tpIntegraor.js"></script>
   </body>
 </html>

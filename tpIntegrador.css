@@ -103,3 +103,16 @@
 .contenido .right{
   right: 0;
 }
+/* errores del Formulario */
+.frm {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+.frm input,
+.frm label {
+  margin: 5px 3px;
+}
+.error {
+  border: 2px solid red;
+}
