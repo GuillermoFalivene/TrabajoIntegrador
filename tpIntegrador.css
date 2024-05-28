@@ -23,6 +23,15 @@
   width: 100%;
   height: 600px;
 }
+.bajo_form {
+  display: flex;
+  justify-content: center;
+  /* padding: 100%;*/
+  background-color: rgb(72, 136, 173);
+  border: 1px solid blue;
+  width: 100%;
+  
+}
 .form{
   width: 24rem;
  /* */
