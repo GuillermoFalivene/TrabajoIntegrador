@@ -15,7 +15,7 @@
     let regex_tel = /^[1-9]\d{9}$/; //Validacion de numero de telefono hasta 9
     let primerCaracter = txtTelefono.value.charAt(0);
     let regex_cor = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
-    let rpta = "Gracia por contactarnos a la brevedad nos comunicaremos, cabañas Vulpi"
+    let rpta = "Gracias por contactarnos, a la brevedad nos comunicaremos cabañas Vulpi."
     // Obtener el valor del input y eliminar los espacios en blanco al inicio y al final
     let nbre = txtNombre.value.trim();
     let crreo = txtCorreo.value.trim();
