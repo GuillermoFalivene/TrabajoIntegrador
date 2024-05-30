@@ -5,6 +5,11 @@
   border: 1px solid blue;
   text-align: center;
 }
+ .sticky {
+  display: flex;
+  position: sticky;
+  top: 0;
+ }
 .menu_var {
   display: flex;
   flex-direction: row;
