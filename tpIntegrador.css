@@ -1,4 +1,5 @@
-.head {
+.head{
+  /*display: inline-block;*/
   align-items: center;
   width: 100%;
   background-color: rgb(26, 64, 167);
@@ -82,7 +83,7 @@
   border: 1px solid blue;
 }
 /*carrusel*/
-h2{
+h2, h1{
   color: white;
   text-align: center;
   font-weight: bold;
@@ -169,3 +170,12 @@ body_des {
 .fila img:hover {
   transform: scale(2);
 }
+/*descripcion centrar*/
+.body_des{
+  background-image: linear-gradient(to bottom, #9d50bb, #6e48aa);
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*contacto centrar*/
